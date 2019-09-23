@@ -1,0 +1,11 @@
+{
+    "name": "cg/my-local-bundle",
+    "description": "test bundle symlinked in project's vendor",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bundle\\": "src/"
+        }
+    },
+    "require": {}
+}

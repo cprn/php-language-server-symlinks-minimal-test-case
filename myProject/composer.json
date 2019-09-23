@@ -1,0 +1,20 @@
+{
+    "name": "cg/my-project",
+    "description": "project for testing symlinked bundles discovery with PHP Language Server by Felix Becker",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Project\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../*"
+        }
+    ],
+    "require": {
+        "cg/my-local-bundle": "dev-master"
+    }
+}
